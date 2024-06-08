@@ -87,7 +87,7 @@
   margin: 5% 10%;
   border-radius: 0.3em;
   border: 0.1em solid black;
-  overflow-y: scroll;
+  overflow-y: auto;
   background-color: rgb(213, 241, 214, 0.9);
   justify-content: center;
   display: flex;
@@ -99,12 +99,12 @@
   background: white;
   top: 3%;
   position: absolute;
-  overflow-x: scroll;
+  overflow-y: auto;
   border: 0.1em solid black;
   border-radius: 0.3em;
 }
 .chatRegion ul {
-  height: 120%;
+  padding-block: 2%;
   list-style: none;
 }
 .ai {
@@ -201,6 +201,6 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  cursor: auto;
+  cursor: pointer;
   box-shadow: 3px 3px black;
 }
